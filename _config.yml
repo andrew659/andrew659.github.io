@@ -3,7 +3,7 @@ title:       Andrew's Blog
 email:       yepangliu@gmail.com
 author:      Yepang Liu (Andrew)
 description: "Keep moving, don't settle."
-baseurl:     ""
+baseurl:     "https://andrew659.github.io/"
 url:         "http://www.cse.ust.hk/~andrewust"
 date_format: "%b %-d, %Y"
 

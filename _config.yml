@@ -1,6 +1,6 @@
 # Build settings
 # Gems
-gems: 
+gems:
 - jekyll-paginate
 - jekyll-feed
 
@@ -33,16 +33,16 @@ nav-links:
   Home: ""
   About Me: "aboutme"
   Archive: "archive"
-  Say Hello: "contact"  
-  
+#  Say Hello: "contact"
+
 # --- Footer options --- #
 
-# If the values are empty, they are ignored 
+# If the values are empty, they are ignored
 profile:
   name: Yepang Liu (Andrew)
   email: andrew659@gmail.com
   facebook: your-fb-id
-  github: andrew659 
+  github: andrew659
   twitter: your-twitter-id
   linkedin: your-linkedin-id
   stackoverflow: your-stackoverflow-id
@@ -59,7 +59,7 @@ disqus: "Your-Disqus-Id"
 google_analytics: "Your-GA-Id"
 
 # Set these options as you need (For more information, check Jekyll's site)
-timezone: "Hong Kong"
+timezone: "Hongkong"
 markdown: kramdown
 #highlighter: rouge
 kramdown:
@@ -96,3 +96,8 @@ creator-url: https://bchetty.com
 
 #ensure we can run custom plugins
 safe: false
+
+#allow future post date
+future: ture
+
+show_drafts: false

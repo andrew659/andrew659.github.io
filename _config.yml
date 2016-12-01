@@ -9,7 +9,7 @@ gems:
 # If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
-url: ""
+url: "https://andrew659.github.io"
 enforce_ssl: ""
 baseurl: ""
 
@@ -17,7 +17,7 @@ baseurl: ""
 title: Andrew's Tech Blog
 
 #Default keywords (used if no keywords are specified on a page basis)
-keywords: test1, test2, etc
+#keywords: test1, test2, etc
 
 # Short description of your site
 desc: Yepang Liu (Andrew)'s tech blog
@@ -30,8 +30,9 @@ avatar: "/img/avatar.jpg"
 
 # List of links in the navigation bar
 nav-links:
-  Home: ""
+#  Home: ""
   About Me: "aboutme"
+  Posts by Category: "categories"
   Archive: "archive"
 #  Say Hello: "contact"
 

@@ -1,6 +1,6 @@
 ---
 layout: template1
-title: Archive
+title: Categories
 comments: false
 ---
 
@@ -16,13 +16,15 @@ comments: false
                     </a>
                 </h4>
             </div>
-            
+
             <div id="{{ category | first }}" class="panel-collapse collapse in">
                 <div class="panel-body">
                     <ul>
                         {% for posts in category %}
                             {% for post in posts %}
-                                <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                                {% if post.title %}
+                                  <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                                {% endif %}
                             {% endfor %}
                         {% endfor %}
                     </ul>
@@ -31,4 +33,3 @@ comments: false
         </div>
     {% endfor %}
 </div>
-

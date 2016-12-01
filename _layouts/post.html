@@ -1,6 +1,6 @@
 ---
 layout: template1
-comments: true 
+comments: true
 ---
 
 <div class="row">
@@ -65,19 +65,19 @@ comments: true
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" name="{{ category | first }}" 
+                                <a data-toggle="collapse" data-parent="#accordion" name="{{ category | first }}"
                                    href="#{{ category | first }}">
                                     {{ category | first }}
                                 </a>
                             </h4>
                         </div>
-                        
+
                         {% if forloop.index == 1 %}
                         <div id="{{ category | first }}" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 <ul>
                                     {% for posts in category %} {% for post in posts %}
-                                    {% if post.url %} 
+                                    {% if post.url %}
                                     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
                                     {% endif %}
                                     {% endfor %} {% endfor %}
@@ -96,20 +96,20 @@ comments: true
                                 </ul>
                             </div>
                         </div>
-                        {% endif %}                       
-                        
+                        {% endif %}
+
                     </div>
                     {% endfor %}
                 </div>
             </div>
         </div>
-        
+
         <div class="panel panel-default">
             <div class="panel-heading">
                 <span class="text-primary"><b>Disclaimer</b></span>
             </div>
             <div class="panel-body">
-                The views expressed on this blog are my personal views and do not reflect the views of 
+                The views expressed on this blog are my personal views and do not reflect the views of
                 my employer or campaigns I am supporting.
             </div>
         </div>

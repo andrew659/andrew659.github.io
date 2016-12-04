@@ -14,13 +14,13 @@ enforce_ssl: ""
 baseurl: ""
 
 # Title of website
-title: Andrew's Tech Blog
+title: Yepang Liu's Research Blog
 
 #Default keywords (used if no keywords are specified on a page basis)
-#keywords: test1, test2, etc
+keywords: software engineering, testing, software analysis, Android
 
 # Short description of your site
-desc: Yepang Liu (Andrew)'s tech blog
+desc: Yepang Liu's Research Blog
 
 # --- Navigation bar options --- #
 
@@ -42,11 +42,11 @@ nav-links:
 profile:
   name: Yepang Liu (Andrew)
   email: andrew659@gmail.com
-  facebook: your-fb-id
+  facebook: andrew659
   github: andrew659
-  twitter: your-twitter-id
-  linkedin: your-linkedin-id
-  stackoverflow: your-stackoverflow-id
+  twitter: andrew659
+  linkedin: andrew659@gmail.com
+#  stackoverflow: your-stackoverflow-id
 
 # To display link in the footer section
 pretty-url: "Yepang Liu"
@@ -54,10 +54,10 @@ pretty-url: "Yepang Liu"
 # --- Misc --- #
 
 # Your Disqus profile (shortname) settings
-disqus: "Your-Disqus-Id"
+disqus: "https-andrew659-github-io"
 
 # Google Analytics Settings
-google_analytics: "Your-GA-Id"
+google_analytics: "UA-88403869-1"
 
 # Set these options as you need (For more information, check Jekyll's site)
 timezone: "Hongkong"
